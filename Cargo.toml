@@ -1,0 +1,8 @@
+[package]
+name = "esoiitem-data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eso_common = { git = "https://github.com/sheumais/eso_common"}
+serde = { version = "1", features = ["derive"] }
